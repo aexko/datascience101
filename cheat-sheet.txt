@@ -91,7 +91,7 @@
   df.COLUMN     series.isnull()   	df.sort_values('column')
   df['COLUMN']  series.sort_index()	df.sort_values(['column1', 'column2'])
 
-  s.str.len()        s.value_counts()
+lter  s.str.len()        s.value_counts()
   s.str.contains()   s.sort_index()       df[['column1', 'column2']]
   s.str.startswith() s.plot(...)          df.plot(x='a', y='b', kind='bar')
 
